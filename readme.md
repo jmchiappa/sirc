@@ -19,7 +19,7 @@ Event if it has been tested only on the L476, there's no reason to fail with ano
 
 ## Limitations
 
-IT works ONLY for SONY protocol. Indeed, the timings for other protocol are totally differents. So do not expect to use it with sirc remote.
+IT works ONLY for SONY protocol. Indeed, the timings for other protocol are totally differents.
 Sometimes, the output is inverted regarding the specification. So you would adjust by inverting the input test `if(digitalRead(pinReceiver)...` in sirc.cpp file.
 The SONY protocol has no more toggle bit, so detecting a repeated code must be reached in your application.
 
